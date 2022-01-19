@@ -30,7 +30,7 @@ public class FileScanner {
             return superpositionOfWords;
 
         } catch (IOException e) {
-            e.printStackTrace();// rethrow
+            e.printStackTrace();// это не rethrow. Нужно исправить!
             return new ArrayList<>();
 
         }
